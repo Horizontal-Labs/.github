@@ -19,6 +19,26 @@ Key research questions include:
 The following task is centered around how a productive Argument Mining Pipeline can be deployed and hosted. 
 - How does a suitable software architecture for a AI argument mining pipeline needs to be designed and implemented?
 - How can the results of the argument mining pipeline can be demonstrated and visualised?
+---
+
+## Repositories
+
+Our project involved the creation of eight repositories. The following four are crucial for reproducing our pipeline:
+
+* **[argument-mining-db](https://github.com/Horizontal-Labs/argument-mining-db/wiki)**: This repository hosts our MariaDB database.
+* **[graph-visualization](https://github.com/Horizontal-Labs/graph-visualization/wiki)**: This repository contains the functionality for graph visualization.
+* **[armin-app](https://github.com/Horizontal-Labs/armin-app/wiki)**: This repository houses the web frontend, built using Vue.
+* **[argument-mining-api](https://github.com/Horizontal-Labs/argument-mining-api/wiki)**: This repository provides the API endpoints, models, and handles the core logic for discovering Argumentative Discourse Units (ADUs).
+
+In addition, we developed other repositories for specific purposes:
+
+* **[training-zoo](https://github.com/Horizontal-Labs/training-zoo/wiki)**: This repository is dedicated to training decoder and encoder models.
+* **[synapse-spark](https://github.com/Horizontal-Labs/synapse-spark/wiki)**: Here, we tested and engineered prompts for Large Language Models (LLMs).
+* **[benchmark](https://github.com/Horizontal-Labs/benchmark/wiki)**: This repository contains the benchmark data used to compare the results of our models.
+* **[prototype-pipeline](https://github.com/Horizontal-Labs/prototype-pipeline/wiki)**: This repository holds our initial pipeline implementation, which was replaced by a more effective solution.
+
+
+
 
 # Approaches for Argument Mining Language Model
 
@@ -36,6 +56,6 @@ Decoder-only models (e.g. GPT) can be utilized through prompting to classify arg
 Encoder-Decoder Models (e.g. T5 / BART) offer an architecture for both classification and generation tasks.  
 - **Prompting / In-context learning (Zero Shot / Few Shot):** Similar to decoder-only models, encoder-decoder models can be used with tailored prompts to extract argument structures, taking advantage of their ability to produce structured outputs (embeddings).
 
-Further information can found [here](https://github.com/Horizontal-Labs/Argument-Mining/wiki/(Machine-Learning)-Models).
+Further information can found [here](https://github.com/Horizontal-Labs/argument-mining-db/wiki/(Machine-Learning)-Models).
 
 
