@@ -37,22 +37,4 @@ In addition, we developed other repositories for developing and testing purposes
 * **[graph-visualization](https://github.com/Horizontal-Labs/graph-visualization/wiki)**: Contains testing of graph visualization.
 
 
-# Approaches for Argument Mining Language Model
-
-To address the outlined research questions, this project explores and evaluates multiple transformer-based approaches to argument mining.
-These approaches represent different architectures of language models and learning techniques for capturing argumentative structures in text. Each will be evaluated for its effectiveness, practicality, and alignment with the project's goals. 
-
-1. **Encoder**  
-These models process input text through a transformer encoder (e.g. BERT, RoBERTa) to produce contextualized token embeddings, which are then used for downstream classification tasks.  
-- **Multi-Task Finetuning:** A single encoder is fine-tuned using multiple classification heads, each tailored to a subtask such as argument component identification (e.g., claims, premises) and relation classification (e.g., pro, con).  
-2. **Decoder**  
-Decoder-only models (e.g. GPT) can be utilized through prompting to classify argument structures in a generative fashion.  
-- **Prompting / In-context learning (Zero Shot / Few Shot):** This approach makes use of the in-context learning abilities of LLMs by only using prompts that guide the pre-trained model to perform argument mining without additional training.  
-- **Multi Task Instruction-based Finetuning:** The model is fine-tuned using an instruction-based format, where tasks are framed as textual commands.  
-3. **Encoder-Decoder**  
-Encoder-Decoder Models (e.g. T5 / BART) offer an architecture for both classification and generation tasks.  
-- **Prompting / In-context learning (Zero Shot / Few Shot):** Similar to decoder-only models, encoder-decoder models can be used with tailored prompts to extract argument structures, taking advantage of their ability to produce structured outputs (embeddings).
-
-Further information can found [here](https://github.com/Horizontal-Labs/argument-mining-db/wiki/(Machine-Learning)-Models).
-
 
