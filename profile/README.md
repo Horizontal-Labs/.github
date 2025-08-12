@@ -40,15 +40,17 @@ In addition, we developed other repositories for developing and testing purposes
 * **[synapse-spark](https://github.com/Horizontal-Labs/synapse-spark/wiki)**: Here, we tested and engineered prompts for Large Language Models.
 * **[benchmark](https://github.com/Horizontal-Labs/benchmark/wiki)**: Contains the benchmark data used to compare the results of our models.
 * **[prototype-pipeline](https://github.com/Horizontal-Labs/prototype-pipeline/wiki)**: Holds our initial pipeline implementation, which was replaced by a more effective solution.
-* **[argument-mining-db](https://github.com/Horizontal-Labs/argument-mining-db/wiki)**: This repository hosts our MariaDB database. This database was used for storing our training data.
+* **[argument-mining-db](https://github.com/Horizontal-Labs/argument-mining-db/wiki)**: This repository hosts our MariaDB database which was used for storing our training data.
 * **[graph-visualization](https://github.com/Horizontal-Labs/graph-visualization/wiki)**: Contains testing of graph visualization.
 
 ---
 
 # Pipeline Setup Guide
 
+To reproduce our Argument Mining pipeline, we created this step-by-step manual to guide you thorugh it. 
+
 ## Step 1: Set up the API
-To begin, you'll want to set up the argument-mining-api repository. This repository contains the core logic, models, and API endpoints for discovering Argumentative Discourse Units. It provides the foundational services that your frontend will interact with.
+To begin, you'll want to set up the **[argument-mining-api](https://github.com/Horizontal-Labs/argument-mining-api/wiki)** repository. This repository contains the core logic, models, and API endpoints for discovering Argumentative Discourse Units. It provides the foundational services that your frontend will interact with.
 
 ## Step 2: Develop the Frontend
-Once the API is ready, you can begin developing your frontend using the armin-app repository. This repository houses the Vue-based web application. It is designed to consume the endpoints provided by the argument-mining-api, allowing you to build a user interface around the API's functionality.
+Once the API is ready, you can begin developing your frontend using the **[armin-app](https://github.com/Horizontal-Labs/armin-app/wiki)** repository. This repository houses the Vue-based web application. It is designed to consume the endpoints provided by the argument-mining-api, allowing you to build a user interface around the API's functionality.
