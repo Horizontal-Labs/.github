@@ -49,7 +49,7 @@ Key research questions include:
 - What trade-offs exist between model complexity, interpretability, and performance when designing argument mining systems for practical applications? 
 
 The following task is centered around how a productive Argument Mining Pipeline can be deployed and hosted. 
-- How does a suitable software architecture for a AI argument mining pipeline needs to be designed and implemented?
+- How does a suitable software architecture for an AI argument mining pipeline needs to be designed and implemented?
 - How can the results of the argument mining pipeline can be demonstrated and visualised?
 ---
 
