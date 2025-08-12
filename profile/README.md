@@ -2,7 +2,7 @@ Quick Access:
 * [Project Description](#argument-mining:-uncovering-the-structure-of-persuasion-in-diverse-media)
 * [Research Questions](#research-questions)
 * [Repositories](#repositories)
-* [Project Setup Guide](#project-setup-guide)
+* [Pipeline Setup Guide](#pipeline-setup-guide)
 
 
 # Argument Mining: Uncovering the Structure of Persuasion in Diverse Media
@@ -45,7 +45,7 @@ In addition, we developed other repositories for developing and testing purposes
 
 ---
 
-# Project Setup Guide
+# Pipeline Setup Guide
 
 ## Step 1: Set up the API
 To begin, you'll want to set up the argument-mining-api repository. This repository contains the core logic, models, and API endpoints for discovering Argumentative Discourse Units. It provides the foundational services that your frontend will interact with.
