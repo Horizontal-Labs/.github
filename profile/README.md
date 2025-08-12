@@ -25,15 +25,15 @@ The following task is centered around how a productive Argument Mining Pipeline 
 
 Our project involved the creation of eight repositories. The following two are crucial for reproducing our pipeline:
 * **[armin-app](https://github.com/Horizontal-Labs/armin-app/wiki)**: This repository houses the web frontend, built using Vue.
-* **[argument-mining-api](https://github.com/Horizontal-Labs/argument-mining-api/wiki)**: Provides the API endpoints, models, and handles the core logic for discovering Argumentative Discourse Units (ADUs).
+* **[argument-mining-api](https://github.com/Horizontal-Labs/argument-mining-api/wiki)**: Provides the API endpoints, models, and handles the core logic for discovering Argumentative Discourse Units.
 
 In addition, we developed other repositories for developing and testing purposes:
 
 * **[training-zoo](https://github.com/Horizontal-Labs/training-zoo/wiki)**: Dedicated to training our decoder and encoder models.
-* **[synapse-spark](https://github.com/Horizontal-Labs/synapse-spark/wiki)**: Here, we tested and engineered prompts for Large Language Models (LLMs).
+* **[synapse-spark](https://github.com/Horizontal-Labs/synapse-spark/wiki)**: Here, we tested and engineered prompts for Large Language Models.
 * **[benchmark](https://github.com/Horizontal-Labs/benchmark/wiki)**: Contains the benchmark data used to compare the results of our models.
 * **[prototype-pipeline](https://github.com/Horizontal-Labs/prototype-pipeline/wiki)**: Holds our initial pipeline implementation, which was replaced by a more effective solution.
-* **[argument-mining-db](https://github.com/Horizontal-Labs/argument-mining-db/wiki)**: This repository hosts our MariaDB database. Was used for storing our training data.
+* **[argument-mining-db](https://github.com/Horizontal-Labs/argument-mining-db/wiki)**: This repository hosts our MariaDB database. This database was used for storing our training data.
 * **[graph-visualization](https://github.com/Horizontal-Labs/graph-visualization/wiki)**: Contains testing of graph visualization.
 
 
