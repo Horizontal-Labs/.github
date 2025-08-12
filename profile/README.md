@@ -1,4 +1,4 @@
-Quick Access:
+### Quick Access:
 * [Project Description](#argument-mining---uncovering-the-structure-of-persuasion-in-diverse-media)
 * [Research Questions](#research-questions)
 * [Repositories](#repositories)
