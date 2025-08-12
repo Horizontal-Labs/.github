@@ -1,3 +1,6 @@
+* [Project Setup Guide](#project-setup-guide)
+* [Repositories](#repositories)
+
 # Argument Mining: Uncovering the Structure of Persuasion in Diverse Media
 
 In today's information-rich and often polarized landscape, the ability to automatically extract, analyze, and evaluate arguments from textual data has become paramount. Argument mining, a specialized area within Natural Language Processing, tackles this challenge by focusing on the identification and structuring of argumentative elements, including claims, premises, and conclusions, within written and spoken discourse.
@@ -21,7 +24,7 @@ The following task is centered around how a productive Argument Mining Pipeline 
 - How can the results of the argument mining pipeline can be demonstrated and visualised?
 ---
 
-## Repositories
+# Repositories
 
 Our project involved the creation of eight repositories. The following two are crucial for reproducing our pipeline:
 * **[armin-app](https://github.com/Horizontal-Labs/armin-app/wiki)**: This repository houses the web frontend, built using Vue.
@@ -36,5 +39,12 @@ In addition, we developed other repositories for developing and testing purposes
 * **[argument-mining-db](https://github.com/Horizontal-Labs/argument-mining-db/wiki)**: This repository hosts our MariaDB database. This database was used for storing our training data.
 * **[graph-visualization](https://github.com/Horizontal-Labs/graph-visualization/wiki)**: Contains testing of graph visualization.
 
+---
 
+# Project Setup Guide
 
+## Step 1: Set up the API
+To begin, you'll want to set up the argument-mining-api repository. This repository contains the core logic, models, and API endpoints for discovering Argumentative Discourse Units. It provides the foundational services that your frontend will interact with.
+
+## Step 2: Develop the Frontend
+Once the API is ready, you can begin developing your frontend using the armin-app repository. This repository houses the Vue-based web application. It is designed to consume the endpoints provided by the argument-mining-api, allowing you to build a user interface around the API's functionality.
