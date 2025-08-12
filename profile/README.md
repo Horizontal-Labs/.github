@@ -41,7 +41,7 @@ In addition, we developed other repositories for developing and testing purposes
 * **[benchmark](https://github.com/Horizontal-Labs/benchmark/wiki)**: Contains the benchmark data used to compare the results of our models.
 * **[prototype-pipeline](https://github.com/Horizontal-Labs/prototype-pipeline/wiki)**: Holds our initial pipeline implementation, which was replaced by a more effective solution.
 * **[argument-mining-db](https://github.com/Horizontal-Labs/argument-mining-db/wiki)**: This repository hosts our MariaDB database which was used for storing our training data.
-* **[graph-visualization](https://github.com/Horizontal-Labs/graph-visualization/wiki)**: Contains testing of graph visualization.
+* **[prototype-graph-visualization](https://github.com/Horizontal-Labs/prototype-graph-visualization/wiki)**: Contains testing of graph visualization.
 
 ---
 
