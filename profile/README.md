@@ -1,11 +1,11 @@
 Quick Access:
-* [Project Description](#argument-mining:-uncovering-the-structure-of-persuasion-in-diverse-media)
+* [Project Description](#argument-mining---uncovering-the-structure-of-persuasion-in-diverse-media)
 * [Research Questions](#research-questions)
 * [Repositories](#repositories)
 * [Pipeline Setup Guide](#pipeline-setup-guide)
 
 
-# Argument Mining: Uncovering the Structure of Persuasion in Diverse Media
+# Argument Mining - Uncovering the Structure of Persuasion in Diverse Media
 
 In today's information-rich and often polarized landscape, the ability to automatically extract, analyze, and evaluate arguments from textual data has become paramount. Argument mining, a specialized area within Natural Language Processing, tackles this challenge by focusing on the identification and structuring of argumentative elements, including claims, premises, and conclusions, within written and spoken discourse.
 
