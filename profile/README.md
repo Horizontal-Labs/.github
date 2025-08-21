@@ -58,6 +58,7 @@ Further, questions centered around how a productive Argument Mining Pipeline can
 4. **How does a suitable software architecture for an AI argument mining pipeline needs to be designed and implemented?**
    
 6. **How can the results of the argument mining pipeline can be demonstrated and visualised?**
+       The results are demonstrated via a GitHub repo, a web app for interactive runs on real text, and a short video/GIF as a fallback; from the user’s perspective, they can enter real-time text ranging from few sentences to multi-paragraphs and PDFs, choose the model (TinyLlama or GPT), and receive a single interactive argument graph as the only UI output while the pipeline internally performs ADU classification → premise-claim linking → stance classification, with model confidences computed but not displayed. The visualisation uses Cytoscape with rectangular nodes for both types: claims as blue rectangles and premises as green rectangles; edges are directed premise → claim and encode stance (green = pro, red = con); unlinked ADUs are placed at the bottom of the view; duplicate premises are rendered as separate nodes to preserve frequency and local structure. Evaluation and reporting are kept outside the UI and run on a labeled test set, tracking ADU Precision/Recall/F1, Linking accuracy + Precision/Recall/F1, and Stance Accuracy + macro-F1, with per-model comparisons available in the repo. For reproducibility and ops, live inference is supported; the repo and report pin model names/weights, prompt commit, and library versions.
 
 ---
 
