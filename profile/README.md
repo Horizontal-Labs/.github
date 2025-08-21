@@ -45,17 +45,19 @@ Once the API is ready, you can begin developing your frontend using the **[armin
 This project investigates how modern NLP techniques, particularly transformer-based language models, can be built on to construct robust argument mining pipelines. Our research addresses the challenge of developing an effective argument mining system using an argumentation model with explicit relationship types. 
 
 Key research questions were: 
-**(1) How can transformer-based language models be fine-tuned to recognize complex argumentative structures across diverse discourse types?**
+1. **How can transformer-based language models be fine-tuned to recognize complex argumentative structures across diverse discourse types?**
       We employed LoRA (Low-Rank Adaptation) as our gine-tuning methodology, which enables adaptation of large pre-trained transformer models with minimal computational resources by training only a small subset of parameters (rank r=8 with scaling parameter α=32) rather than the entire model. Our research implemented two complementary transformer architectures, each optimized for different aspects of argument mining:
 Encoder Models (ModernBERT-based): We utilized ModernBERT with a sequence classification approach featuring task-specific heads. The LoRA configuration targets critical attention and MLP components (Wqkv for query-key-value projections, Wo for attention output, and Wi for MLP inner projections). This architecture employs multi-task learning with ModernBERT serving as a shared backbone, enabling the model to learn general argumentative patterns while maintaining specialized heads for distinct argument mining tasks. The configuration is optimized for classification tasks with higher batch sizes (16) and standard BERT learning rates (2e-5). Decoder Models (TinyLlama-based): We implemented an instruction-based unified training approach using causal language modeling with targeted fine-tuning on query and value projections (q_proj, v_proj). This selective targeting reduces memory usage while focusing adaptation on the most impactful components for argumentative reasoning. The approach incorporates 4-bit quantization (QLoRA) for memory efficiency, enabling deployment of larger models with limited computational resources.
 
-**(2) How can datasets be adapted to fit a unified argumentation model that includes explicit relationship types?** 
+2. **How can datasets be adapted to fit a unified argumentation model that includes explicit relationship types?** 
       To unify two datasets, we developed a unified database schema centered around three core components: Argumentative Discourse Units (ADUs) as our foundational data structure that stores individual argumentative texts with their classification type and associated domain context. A domain table that captures the contextual framework for each ADU. A relationship table which explicitly models argumentative relationships between ADU pairs, categorizing connections as pro or con. This explicit relationship modeling is crucial for capturing the complex interdependencies that exist across different discourse types. The adaptation involves the following steps: structural normalisation, stance alignment and context preservation. The dataset that resulted from this was used for the training of the transformer models mentioned in (1).
-**(3) What trade-offs exist between model complexity, interpretability, and performance when designing argument mining systems for practical applications?** 
+3. **What trade-offs exist between model complexity, interpretability, and performance when designing argument mining systems for practical applications?** 
 
 Further, questions centered around how a productive Argument Mining Pipeline can be deployed and hosted: 
-**(4) How does a suitable software architecture for an AI argument mining pipeline needs to be designed and implemented?**
-**(5) How can the results of the argument mining pipeline can be demonstrated and visualised?**
+
+4. **How does a suitable software architecture for an AI argument mining pipeline needs to be designed and implemented?**
+   
+6. **How can the results of the argument mining pipeline can be demonstrated and visualised?**
 
 ---
 
