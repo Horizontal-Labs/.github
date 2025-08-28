@@ -61,6 +61,7 @@ At the component level, the frontend manages user interaction, the API orchestra
 The file structure reflects this separation:
     - Frontend (armin-app/) → Vue components (/components/chat), views (/views), DTOs, and router.
     - Backend (argument-mining-api/) → routes/ (HTTP routes), schemas/ (Request Classes), services/ (Pipeline logic), implementations/ (model implementations), interfaces/ (abstract interfaces), and models/    (data models).
+
 Deployment is automated with Docker Compose and CI/CD scripts that pull images from GitHub Container Registry, configure environments and deploy the latest version of the main branche into the server.
 This architecture is suitable because it ensures modularity and scalability through a clear separation of concerns, flexibility by allowing model switching, reproducibility via well-defined interfaces, and user-friendliness since the complexity of the code is hidden from the user while enabling AI processing.
 
