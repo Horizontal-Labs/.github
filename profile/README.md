@@ -16,7 +16,8 @@ Through this project, we intend to contribute to the advancement of argument min
 
 ---
 # C4 Model of our Project
-<img width="2415" height="1040" alt="image" src="https://github.com/user-attachments/assets/49d857ec-e375-4053-ad1b-f32e524fac7f" />
+<img width="2314" height="1000" alt="image" src="https://github.com/user-attachments/assets/eb366506-e78a-49d5-909d-2a1458c6af77" />
+
 
 ---
 # Repositories
@@ -38,9 +39,9 @@ In addition, we developed other repositories for developing and testing purposes
 
 To reproduce our Argument Mining pipeline, we created this step-by-step manual to guide you thorugh it. 
 
-## Step 1: Set up the API
-To begin, you'll want to set up the **[argument-mining-api](https://github.com/Horizontal-Labs/argument-mining-api/wiki)** repository. This repository contains the core logic, models, and API endpoints for discovering Argumentative Discourse Units. It provides the foundational services that your frontend will interact with.
+## Step 1: Setup the Backend
+To begin, you'll want to set up the **[argument-mining-api](https://github.com/Horizontal-Labs/argument-mining-api/wiki)** repository. This repository contains the core logic, models, and API endpoints for discovering Argumentative Discourse Units (ADU). It provides the foundational services that the frontend will interact with.
 
-## Step 2: Develop the Frontend
-Once the API is ready, you can begin developing your frontend using the **[armin-app](https://github.com/Horizontal-Labs/armin-app/wiki)** repository. This repository houses the Vue-based web application. It is designed to consume the endpoints provided by the argument-mining-api, allowing you to build a user interface around the API's functionality.
+## Step 2: Setup the Frontend
+Once the API is setup, you can begin developing your frontend using the **[armin-app](https://github.com/Horizontal-Labs/armin-app/wiki)** repository. This repository houses the Vue-based Web Application. It is designed to call the endpoints provided by the argument-mining-api, allowing you to use our pre trained Models or different versions of OpenAIs GPT Models to extract ADUs, their Relationships to each other and their Stance.
 
