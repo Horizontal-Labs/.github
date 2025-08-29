@@ -15,6 +15,10 @@ With its potential to enhance critical thinking and inform decision-making acros
 Through this project, we intend to contribute to the advancement of argument mining by developing a practical and effective pipeline capable of analyzing real-world textual data and addressing the critical challenges in this evolving field.
 
 ---
+# C4 Model of our Project
+<img width="2415" height="1040" alt="image" src="https://github.com/user-attachments/assets/49d857ec-e375-4053-ad1b-f32e524fac7f" />
+
+---
 # Repositories
 
 Our project involved the creation of eight repositories. The following two are crucial for reproducing our pipeline and therefore more in detail explained both in this README ([Project Setup Guide](#project-setup-guide)) and in their repository wikis:
