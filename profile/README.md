@@ -2,7 +2,6 @@
 * [Project Description](#argument-mining---uncovering-the-structure-of-persuasion-in-diverse-media)
 * [Repositories](#repositories)
 * [Pipeline Setup Guide](#pipeline-setup-guide)
-* [Research Questions](#research-questions)
 
 ---
 # Argument Mining - Uncovering the Structure of Persuasion in Diverse Media
