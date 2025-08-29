@@ -31,4 +31,13 @@ In addition, we developed other repositories for developing and testing purposes
 * **[argument-mining-db](https://github.com/Horizontal-Labs/argument-mining-db/wiki)**: This repository hosts our MariaDB database which was used for storing our training data.
 * **[prototype-graph-visualization](https://github.com/Horizontal-Labs/prototype-graph-visualization/wiki)**: Contains testing of graph visualization.
 ---
+# Pipeline Setup Guide
+
+To reproduce our Argument Mining pipeline, we created this step-by-step manual to guide you thorugh it. 
+
+## Step 1: Set up the API
+To begin, you'll want to set up the **[argument-mining-api](https://github.com/Horizontal-Labs/argument-mining-api/wiki)** repository. This repository contains the core logic, models, and API endpoints for discovering Argumentative Discourse Units. It provides the foundational services that your frontend will interact with.
+
+## Step 2: Develop the Frontend
+Once the API is ready, you can begin developing your frontend using the **[armin-app](https://github.com/Horizontal-Labs/armin-app/wiki)** repository. This repository houses the Vue-based web application. It is designed to consume the endpoints provided by the argument-mining-api, allowing you to build a user interface around the API's functionality.
 
