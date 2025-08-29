@@ -22,7 +22,7 @@ Through this project, we intend to contribute to the advancement of argument min
 ---
 # Repositories
 
-Our project involved the creation of eight repositories. The following two are crucial for reproducing our pipeline and therefore more in detail explained both in this README ([Project Setup Guide](#project-setup-guide)) and in their repository wikis:
+Our project involved the creation of eight repositories. The following two are crucial for reproducing our pipeline and therefore more in detail explained both in this README ([Pipeline Setup Guide](#pipeline-setup-guide)) and in their repository wikis:
 * **[armin-app](https://github.com/Horizontal-Labs/armin-app/wiki)**: This repository houses the web frontend, built using Vue.
 * **[argument-mining-api](https://github.com/Horizontal-Labs/argument-mining-api/wiki)**: Provides the API endpoints, models, and handles the core logic for discovering Argumentative Discourse Units.
 
