@@ -45,3 +45,5 @@ To begin, you'll want to set up the **[argument-mining-api](https://github.com/H
 ## Step 2: Setup the Frontend
 Once the API is setup, you can begin developing your frontend using the **[armin-app](https://github.com/Horizontal-Labs/armin-app/wiki)** repository. This repository houses the Vue-based Web Application. It is designed to call the endpoints provided by the argument-mining-api, allowing you to use our pre trained Models or different versions of OpenAIs GPT Models to extract ADUs, their Relationships to each other and their Stance.
 
+## Step 3: Mine Arguments! 😄
+
