@@ -29,7 +29,7 @@ Our project involved the creation of eight repositories. The following two are c
 In addition, we developed other repositories for developing and testing purposes:
 
 * **[training-zoo](https://github.com/Horizontal-Labs/training-zoo/wiki)**: Dedicated to training our decoder and encoder models.
-* **[synapse-spark](https://github.com/Horizontal-Labs/synapse-spark/wiki)**: Here, we tested and engineered prompts for Large Language Models.
+* **[synapse-sparks](https://github.com/Horizontal-Labs/synapse-sparks/wiki)**: Here, we tested and engineered prompts for Large Language Models.
 * **[benchmark](https://github.com/Horizontal-Labs/benchmark/wiki)**: Contains the benchmark data used to compare the results of our models.
 * **[prototype-pipeline](https://github.com/Horizontal-Labs/prototype-pipeline/wiki)**: Holds our initial pipeline implementation, which was replaced by a more effective solution.
 * **[argument-mining-db](https://github.com/Horizontal-Labs/argument-mining-db/wiki)**: This repository hosts our MariaDB database which was used for storing our training data.
