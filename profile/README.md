@@ -1,5 +1,6 @@
 ### Quick Access:
 * [Project Description](#argument-mining---uncovering-the-structure-of-persuasion-in-diverse-media)
+* [Pipeline Overview](#c4-model---pipeline-overview)
 * [Repositories](#repositories)
 * [Pipeline Setup Guide](#pipeline-setup-guide)
 
@@ -15,9 +16,28 @@ Along the way, we also tested various open-source language models and investigat
 Our open-source implementation is designed for practical use across different domains, from legal texts and policy discussions to social media analysis. The outcome is a working prototype that can process real-world data and present argument structures in a clear, visual format.  
 
 ---
-# C4 Model of our Project
+# C4 Model - Pipeline Overview
 <img width="2314" height="1000" alt="image" src="https://github.com/user-attachments/assets/eb366506-e78a-49d5-909d-2a1458c6af77" />
 
+Our Argument Mining pipeline connects a frontend web application with a backend API and a set of machine learning models to process text into structured argumentative graphs.  
+
+1. **Client Access**  
+   Users interact with the system by visiting the web application in their browser. The app is served as a Single Page Application (SPA) and runs entirely in the client’s browser.  
+
+2. **Web Server**  
+   The SPA (built with Vue/TypeScript) is delivered as static files (HTML, CSS, JS) by a web server such as NGINX or Apache.  
+
+3. **Frontend (SPA)**  
+   The SPA handles user input (e.g., free text or documents) and communicates with the backend API. It then displays an **interactive graph** where argumentative discourse units (ADUs: claims and premises) are shown along with their relationships (supports or opposes).  
+
+4. **API Service**  
+   The backend API (built with Python/FastAPI or Flask) exposes HTTP endpoints for text processing. It receives dialogue data from the frontend, orchestrates model inference, manages requests, and returns structured graph data in JSON.  
+
+5. **Machine Learning Models**  
+   The API loads and executes pre-trained or fine-tuned NLP models (e.g., BERT-based) that detect claims, premises, and stance relationships. The output is structured graph data that can be rendered by the frontend.  
+
+In short:  
+The **frontend** collects user input and renders argument graphs → the **API** coordinates requests and processing → the **ML models** analyze the text and provide structured argumentative data.  
 
 ---
 # Repositories
