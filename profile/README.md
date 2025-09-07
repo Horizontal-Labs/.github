@@ -24,7 +24,7 @@ Through this project, we intend to contribute to the advancement of argument min
 
 Our project involved the creation of eight repositories. The following two are crucial for reproducing our pipeline and therefore more in detail explained both in this README ([Pipeline Setup Guide](#pipeline-setup-guide)) and in their repository wikis:
 * **[armin-app](https://github.com/Horizontal-Labs/armin-app/wiki)**: This repository houses the web frontend, built using Vue.
-* **[argument-mining-api](https://github.com/Horizontal-Labs/argument-mining-api/wiki)**: Provides the API endpoints, models, and handles the core logic for discovering Argumentative Discourse Units.
+* **[argument-mining-api](https://github.com/Horizontal-Labs/argument-mining-api/wiki)**: Boots up the argument mining models and provides API endpoints to feed text into them. It delivers ADUs (Claims, Premises) and the Stance Relationships between those as a result.
 
 In addition, we developed other repositories for developing and testing purposes:
 
@@ -37,13 +37,13 @@ In addition, we developed other repositories for developing and testing purposes
 ---
 # Pipeline Setup Guide
 
-To reproduce our Argument Mining pipeline, we created this step-by-step manual to guide you thorugh it. 
+To run our Argument Mining pipeline, we created this step-by-step manual to guide you through it. 
 
 ## Step 1: Setup the Backend
-To begin, you'll want to set up the **[argument-mining-api](https://github.com/Horizontal-Labs/argument-mining-api/wiki)** repository. This repository contains the core logic, models, and API endpoints for discovering Argumentative Discourse Units (ADU). It provides the foundational services that the frontend will interact with.
+To begin, you'll want to set up the **[argument-mining-api](https://github.com/Horizontal-Labs/argument-mining-api/wiki)** repository. This repository contains the core logic, models, and API endpoints.
 
 ## Step 2: Setup the Frontend
-Once the API is setup, you can begin developing your frontend using the **[armin-app](https://github.com/Horizontal-Labs/armin-app/wiki)** repository. This repository houses the Vue-based Web Application. It is designed to call the endpoints provided by the argument-mining-api, allowing you to use our pre trained Models or different versions of OpenAIs GPT Models to extract ADUs, their Relationships to each other and their Stance.
+Once the API Server is setup and running, you can begin setting up the frontend using the **[armin-app](https://github.com/Horizontal-Labs/armin-app/wiki)** repository. It connects to the endpoints from the argument-mining-api and provides a simpler interface to use the pre-trained models or different versions of OpenAI’s GPT models.
 
 ## Step 3: Mine Arguments! 😄
 
