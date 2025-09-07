@@ -4,15 +4,15 @@
 * [Pipeline Setup Guide](#pipeline-setup-guide)
 
 ---
-# Argument Mining - Uncovering the Structure of Persuasion in Diverse Media
+# Argument Mining – Uncovering the Structure of Persuasion in Diverse Media  
 
-In today's information-rich and often polarized landscape, the ability to automatically extract, analyze, and evaluate arguments from textual data has become paramount. Argument mining, a specialized area within Natural Language Processing, tackles this challenge by focusing on the identification and structuring of argumentative elements, including claims, premises, and conclusions, within written and spoken discourse.
+This project explores how arguments are formed and expressed in everyday communication. By building tools that automatically detect claims, premises, and their relationships, we aim to make debates, online discussions, and political discourse easier to follow and analyze.  
 
-The purpose of this project is to research, design, and develop an open-source tool for automated argument mining across diverse media formats such as social media or political debates. We aim to make (political) discourse more understandable and accessible by revealing the logical and argumentative structures embedded in natural language, leveraging the power of AI.
+The core idea is simple: given a piece of text, our pipeline identifies argumentative units (ADUs) and shows how they connect to form reasoning. To make these structures easier to understand, we provide a **graph visualization** that highlights how claims are supported or opposed by premises, and whether they take a *pro* or *con* stance.  
 
-With its potential to enhance critical thinking and inform decision-making across diverse domains such as legal analysis, online debate platforms, policy formulation, and the detection of misinformation, argument mining provides valuable tools for understanding the logical underpinnings of persuasive communication. The anticipated outcome of this project is a functional prototype capable of processing real-world data and presenting arguments and their relationships in a structured, visual format.
+Along the way, we also tested various open-source language models and investigated whether fine-tuning them with argumentative data collected from the internet could improve results. Details of this work are documented [here](WIKI-LINK). 
 
-Through this project, we intend to contribute to the advancement of argument mining by developing a practical and effective pipeline capable of analyzing real-world textual data and addressing the critical challenges in this evolving field.
+Our open-source implementation is designed for practical use across different domains, from legal texts and policy discussions to social media analysis. The outcome is a working prototype that can process real-world data and present argument structures in a clear, visual format.  
 
 ---
 # C4 Model of our Project
