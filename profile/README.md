@@ -10,7 +10,7 @@ This project explores how arguments are formed and expressed in everyday communi
 
 The core idea is simple: given a piece of text, our pipeline identifies argumentative units (ADUs) and shows how they connect to form reasoning. To make these structures easier to understand, we provide a **graph visualization** that highlights how claims are supported or opposed by premises, and whether they take a *pro* or *con* stance.  
 
-Along the way, we also tested various open-source language models and investigated whether fine-tuning them with argumentative data collected from the internet could improve results. Details of this work are documented [here](WIKI-LINK). 
+Along the way, we also tested various open-source language models and investigated whether fine-tuning them with argumentative data collected from the internet could improve results. Details of this work are documented [here](https://github.com/Horizontal-Labs/training-zoo/wiki/Fine-Tuning-Datasets)
 
 Our open-source implementation is designed for practical use across different domains, from legal texts and policy discussions to social media analysis. The outcome is a working prototype that can process real-world data and present argument structures in a clear, visual format.  
 
