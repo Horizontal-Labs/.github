@@ -17,9 +17,10 @@ Our open-source implementation is designed for practical use across different do
 
 ---
 # C4 Model - Pipeline Overview
-<img width="2314" height="1000" alt="image" src="https://github.com/user-attachments/assets/eb366506-e78a-49d5-909d-2a1458c6af77" />
+<img width="2314" height="1044" alt="image" src="https://github.com/user-attachments/assets/bc2a4f64-c091-4813-acd9-b3836f70f800" />
 
-Our Argument Mining pipeline links a web-based frontend, a backend API, and machine learning models to turn text into structured argumentative graphs.  
+
+Our Argument Mining pipeline links a web-based frontend, a backend API, and machine learning models to turn unstructured argument texts into structured argumentative graphs.  
 
 1. **Client Access**  
    Users open the web application in their browser, which runs as a Single Page Application (SPA).  
